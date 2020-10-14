@@ -1,0 +1,89 @@
+body{
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.images-1{
+    border: solid blueviolet 25px;
+    animation-name: caraousel;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+
+
+}
+
+
+
+
+
+
+footer{
+background-image: url(images/painting_company_logo.png);
+    text-align: center;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    /* margin-top: 50px; */
+}
+
+
+nav{
+    list-style-type: none;
+}
+.first  {
+    text-decoration:none;
+    font-size: 20px;
+    margin: 35px;
+    color: white;
+    border-radius: 20px;
+    background:red;
+    padding: 20px;
+    width: 323px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+.second  {
+    text-decoration:none;
+    font-size: 20px;
+    margin: 35px;
+    color: white;
+    border-radius: 20px;
+    background: green;
+    padding: 20px;
+    width: 323px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 100px;
+    
+}
+.third {
+    text-decoration:none;
+    font-size: 20px;
+    margin: 35px;
+    color: white;
+    border-radius: 20px;
+    background: brown;
+    padding: 20px;
+    width: 323px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 280px;
+}
