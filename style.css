@@ -13,6 +13,24 @@ background-size: cover;
 
 }
 
+.logo{
+    border: 1px solid black;
+    border-style: groove;
+    transform: rotate(-15deg);
+    margin-left: 50px;
+    margin-top: 40px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-delay: 3s;
+}
+@keyframes logo {
+    0%{transform: translateY(-350px)}
+    /* 50%{transform: translateY(-350px)} */
+    100%{transform: translate(30px) rotate(-10deg)}
+}
 
 
 
@@ -29,6 +47,8 @@ background-image: url(images/painting_company_logo.png);
     width: 100%;
     color: white;
     /* margin-top: 50px; */
+    /* margin-left: 650px; */
+
 }
 
 
