@@ -4,8 +4,8 @@ background-size: cover;
 }
 
 .images-1{
-    border: solid blueviolet 25px;
-    animation-name: caraousel;
+    border: none;
+    animation-name: carousel;
     animation-duration: 4s;
     animation-iteration-count: 2;
     animation-direction: alternate;
@@ -86,4 +86,18 @@ nav a:hover{
     font-family: 'Times New Roman', Times, serif;
     float: left;
     margin-left: 280px;
+}
+
+@keyframes carousel{
+    0%{    border: dashed purple 15px;
+    }
+    25%{    border: double  darkgreen 18px;
+    }
+    50%{    border: solid darkblue 21px;
+    }
+    75%{    border: ridge darkred 25px;
+    }
+    100%{    border: outset darkgoldenrod 27px;
+    }
+
 }
